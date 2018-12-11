@@ -1,0 +1,218 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+/* Ecris ici ton code CSS */
+title {
+  font-family: 'Amatic SC', cursive;
+}
+h1 {
+  font-family: 'Amatic SC', cursive;
+  background-color: cornflowerblue;
+  font-size: 65px;
+  text-align: center;
+  width: 400px;
+  padding: 40px;
+  border: 5px solid RGB(0, 0, 255);
+  box-shadow: 15px 15px 20px #4169e1;
+  position: relative;
+  margin-left: 35%;
+  margin-right: 45%;
+}
+body {
+  font-family: Roboto, 'Open Sans', sans-serif;
+  background-image: linear-gradient(50deg, #4169e1 20%, midnightblue 15%, red);
+}
+img {
+  width: 200px;
+  padding: 2px;
+  border: 3px solid yellow;
+  box-shadow: -10px 10px 0px #ffff00;
+  float: right;
+}
+nav ul {
+  font-family: 'Amatic Sc', cursive;
+  padding: 1px;
+  margin: 1px;
+  list-style-type: none;
+  background-color: #00008b;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin: 4px;
+  padding: 4px;
+  width: 100px;
+  height: 40px;
+  border-right: 1px solide #cccccc;
+  text-align: center;
+  line-height: 40px;
+}
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+nav li :hover {
+  background-color: #faf0e6;
+}
+
+h2 {
+  font-family: 'Amatic Sc', cursive;
+  font-size: 55px;
+  text-align: center;
+  color: #00ffff;
+  position: relative;
+}
+
+#container li {
+  display: inline-block;
+  width: calc(120% / 4);
+  font-size: 14px;
+}
+.element {
+  font-size: 15px;
+  color: #ffffff;
+  list-style-type: none;
+  text-align: center;
+  height: 600px;
+  border: 1px solid black;
+}
+h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px;
+  text-align: center;
+  color: RGB(25, 25, 112);
+  position: relative;
+}
+#para1 {
+  width: 200px;
+  position: absolute;
+  margin-top: -22%;
+  margin-left: 6%;
+  padding: 2px;
+  border: 3px solid midnightblue;
+  box-shadow: -10px 10px 0px #000080;
+}
+#para2 {
+  width: 250px;
+  position: absolute;
+  margin-top: -22%;
+  margin-left: 5%;
+  padding: 2px;
+  border: 3px solid midnightblue;
+  box-shadow: -10px 10px 0px #000080;
+}
+#para3 {
+  width: 320px;
+  position: absolute;
+  margin-top: -22%;
+  margin-left: 5%;
+  padding: 2px;
+  border: 3px solid midnightblue;
+  box-shadow: -10px 10px 0px #000080;
+}
+/*about us*/
+.timeline {
+  position: relative;
+  min-height: 400px;
+  overflow-y: hidden;
+}
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 3px;
+  height: 100%;
+  left: 300px;
+}
+.timeline-item {
+  margin: 0 75px;
+}
+.timeline-item-details {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.timeline-item:first-child .timeline-item-detail {
+  margin-top: 20px;
+}
+.timeline-item-details-date,
+.timeline-idem-details-marker,
+.timeline-item-details-description {
+  float: left;
+}
+.timeline-item-details-date {
+  color: #fff;
+  font-size: 1.3em;
+}
+.timeline-item-details-marker {
+  position: relative;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: #3f51b5;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #fff;
+  margin-left: 207px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.timeline-item-details:hover .timeline-item-details-marker {
+  transform: scale(1.4);
+  background: #fff;
+}
+.timeline-item-details-description:before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 60px;
+  height: 3px;
+  margin-left: -80px;
+  margin-top: -10px;
+}
+.timeline-item-details-description {
+  padding: 16px;
+  color: #333;
+  background-color: #00bfff;
+  border-radius: 4px;
+  margin-left: 300px;
+  margin-top: -20px;
+  word-wrap: break-word;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+.timeline-item-details:hover .timeline-item-details-description {
+  opacity: 4;
+}
+/*Price*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+tr,
+th {
+  border: 3px solid black;
+  padding: 10px;
+  background-color: #8a2be2;
+}
+td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: orchid;
+}
+/*contact*/
+label {
+  display: inline-block;
+  min-width: 300px;
+  width: 50px;
+  font-size: 30px;
+}
+#form {
+  border: 1px solid black;
+  width: 500px;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+footer {
+  text-align: center;
+  color: #000000;
+  background-color: #7cfc00;
+}
